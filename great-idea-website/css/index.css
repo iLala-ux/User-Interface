@@ -69,10 +69,38 @@ h1, h2, h3, h4, h5 {
 body {
 	width: 90%;
 	margin: auto;
+	padding: 1%;
+	display: inline-block;
+	border: 20px;
 }
-a  {
+
+header {
+	display: inline-block;
+
+} 
+
+.nav{
+	margin: auto;	
+	padding: 0%;
+	width: 0%;
+	display: inline-block;
+
+}
+
+.first{
+	width: 100px;
+	margin: 20px;
+	text-align: center;
+
+}
+ a  {
 	text-decoration: none;
 	color: lightgrey;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	font-size: 20px;
 }
 
 img {
@@ -84,4 +112,56 @@ img {
 	page-break-after: auto;	
 	width: 100%;
 	display: inline-block
+}
+
+.logo {
+	display: inline-block;
+}
+
+
+
+h1{
+	padding-right: 20px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	border: 60px;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+	font: 1em bold;
+
+}
+
+.section{
+	display: inline-block;
+}
+
+address{
+
+
+}
+
+footer{
+	text-align: center;
 }
