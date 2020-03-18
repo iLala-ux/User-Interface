@@ -110,9 +110,7 @@ h1{
 	font-size: 50px;
 	text-align: left center;
 	margin-top: 65px;
-	
-
-}
+}	
 
 .button{
 	width: 100px;
@@ -123,12 +121,13 @@ h1{
 	margin-top: 10px;
 	border-bottom: solid;
 }
-.coderball{
 
-margin-left: 100%;
-margin-bottom: 50%;
-margin-top: 0%;
-}
+
+
+
+
+
+
 
 p{
 	display: inline-block;
@@ -137,6 +136,7 @@ p{
 
 h2{
 	border-top: solid;
+	margin-top: 30px;
 
 }
 
