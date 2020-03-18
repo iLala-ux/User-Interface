@@ -79,7 +79,7 @@ img {
 	width: auto;
 }
 
-.nav {
+.nav a{
 	margin: 1%;
 	page-break-after: auto;	
 	width: 100%;
