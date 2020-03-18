@@ -70,9 +70,9 @@ body {
 	width: 90%;
 	margin: auto;
 }
-a {
+a  {
 	text-decoration: none;
-	color: rgb(90, 78, 78);
+	color: lightgrey;
 }
 
 img {
