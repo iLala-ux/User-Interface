@@ -63,107 +63,102 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
-
-body {
-	width: 100%;
+/* ~~~~~~~~~~~~~~~Your code starts here!~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container{
+	margin:20px 40px 40px 40px;
+}
+body{
 	margin: auto;
-	padding: 3%;
-	display: inline-block;
-	background-color: whitesmoke;
-	font-family: sans-serif;
+	scroll-padding-bottom: 6px;
 }
-.containerwrap{
-	margin: 20px 40px 40px 40px;
+/*~~~~~~~~~~~~~~~NAVIGATION STYLES BY LALA~~~~~~~~~~~~~~~~~~*/	
+
+a{
+	text-align: right;
 }
-header {
-	display: inline-block;
-	text-align: center;
-
-} 
-/* NAVIGATION STYLES BY LALA */	
-
 nav{
+	background-color: rgb(192, 157, 221);
 	display: inline-block;
-	font-size: 1.1em;
-	padding: 20px;
+	font-size: 40px;
+	padding:20px;
 	position: fixed;
 	top: 0%;
-	width: 100%;
-	z-index: 100;
+	width:100%;
+	
 }
-
 .nav a{
 	text-decoration: none;
-	font-family: fantasy;
+	font-family: 'Bellota';
 	line-height: 2.5em;
 	padding-right: 2.8em;
-	color: cornsilk;
+	color:black;
 }
-nav a:before{
-	content: '';
-	position:relative;
-	top: 0%;
-	left:0;
-}
-nav a:after;{
-	content: '';
-	position:relative;
-	top: 0%;
-	right:40px;
-	transition: all .2s ease-in-out;
-}
-/*Logo Display*/
 
-.mainz{
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Logo Display~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.logo{
+	float: right;
+}
+#iod-img{
+	position: relative;
+	right:0;
+	text-align: center;
+	z-index: -100;
+}
+.iod{
 	padding: 100px 10px;
 }
-#iod, #button{
+#iod-txt, #iod-img{
 	display: inline-block;
 	vertical-align: middle;
 	width: 48%;
 }
-#button{
+#iod-txt{
 	font-size: 3.5em;
 	text-align: center;
 }
-#code{
+#iod button{
 	background: none;
 	border:1px solid;
 	height:50px;
 	width:200px;
 }
-/*CONTENT*/ 
-.content p{
-	font-family: sans-serif;
+#iod-img img{
+	height: 40%;
+	width: 350px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~CONTENT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+.top-content {
+	display: inline-block;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	padding: 50px 0;
+}
+.top-content p{
+	font-family: 'Belloti';
 }
 
-.header {
-	text-align: left;	
+
+.top-content h2 {
+	color: black;
 }
-.main{
-	float: right;
-	padding-right: 0%;
-	margin: 0%;
-	width: 50%;
-}
-.top_content_box {
-	margin: 1%;
+.middle-img {
 	width: 100%;
-	padding: 50px;
-	background:2px solid;
-	border: solid black;
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#features, #about {
 	display: inline-block;
-	margin-bottom: 15px;
+	margin: 0 20px 50px 0;
 	box-sizing: border-box;
+	width:45%;
+	
 }
-p*{
+#services, #product, #vision {
 	display: inline-block;
-	text-align: left;
-	padding: 1%;
-	width: 100%;
-	font-family: sans-serif;
+	margin: 50px 20px 0 0;
+	width: 30%;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .contact {
