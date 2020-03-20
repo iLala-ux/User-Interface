@@ -74,12 +74,16 @@ body{
 /*~~~~~~~~~~~~~~~NAVIGATION STYLES BY LALA~~~~~~~~~~~~~~~~~~*/	
 
 a{
-	text-align: right;
+	text-align: left;
+	padding: 4%;
+	text-decoration: none;
+	font-style: bold;
+	color: lightgrey;
 }
 nav{
 	background-color: rgb(192, 157, 221);
 	display: inline-block;
-	font-size: 40px;
+	font-size: 20px;
 	padding:20px;
 	position: fixed;
 	top: 0%;
@@ -91,9 +95,30 @@ nav{
 	font-family: 'Bellota';
 	line-height: 2.5em;
 	padding-right: 2.8em;
-	color:black;
+	
 }
+nav a:before{
+	content: '';
+	position: relative;
+	top: 0;
+	left:40px;
 
+}
+nav a:hover:before{
+	content: '*';
+	color: rgb(255, 65, 160);
+	position: relative;
+	top: 0%;
+	left: 0;
+}
+nav a:after{
+	content:'*';
+	color:hotpink;
+	position: relative;
+	top: 0;
+	right: 40px;
+
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Logo Display~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .logo{
