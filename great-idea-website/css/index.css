@@ -81,7 +81,7 @@ a{
 	color: lightgrey;
 }
 nav{
-	background-image:linear-gradient(0.25turn, rgb(28, 124, 165), #EBF8E1, #F69D3C); ;
+	background-image:linear-gradient(0.25turn, rgb(28, 68, 179), rgb(224, 27, 13), rgb(157, 12, 214)); ;
 	background-color: rgb(192, 157, 221);
 	display: inline-block;
 	font-size: 20px;
