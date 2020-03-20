@@ -113,7 +113,7 @@ nav a:hover:before{
 	left: 0;
 }
 nav a:after{
-	content:'*';
+	content:'';
 	color:hotpink;
 	position: relative;
 	top: 0;
