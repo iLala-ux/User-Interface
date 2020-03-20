@@ -88,7 +88,6 @@ nav{
 	position: fixed;
 	top: 0%;
 	width:100%;
-	
 }
 .nav a{
 	text-decoration: none;
@@ -117,7 +116,6 @@ nav a:after{
 	position: relative;
 	top: 0;
 	right: 40px;
-
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Logo Display~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -162,8 +160,6 @@ nav a:after{
 .top-content p{
 	font-family: 'Belloti';
 }
-
-
 .top-content h2 {
 	color: black;
 }
@@ -178,7 +174,6 @@ nav a:after{
 	margin: 0 20px 50px 0;
 	box-sizing: border-box;
 	width:45%;
-	
 }
 #services, #product, #vision {
 	display: inline-block;
@@ -192,7 +187,6 @@ nav a:after{
 .contact p{
 	font-family: fantasy;
 }
-
 .footer-content	{
 	font-family: fantasy;
 	text-align: center;
